@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Load the Model
 pipeline = pickle.load(open('preprocess.pkl','rb'))
-model = tf.keras.models.load_model('model.h5')
+model = tf.keras.models.load_model('churn_model.h5')
 
 # Endpoint for Homepage
 @app.route("/")
