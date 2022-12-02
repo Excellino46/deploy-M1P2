@@ -3,3 +3,4 @@ numpy
 tensorflow-cpu
 flask
 scikit-learn==1.1.3
+gunicorn
